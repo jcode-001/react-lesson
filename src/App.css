@@ -1,0 +1,32 @@
+.App {
+  padding: 20px;
+}
+
+ul {
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+li.course {
+  padding: 5px;
+  outline: solid 1px #eee;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+li.course .title {
+  margin-left: 6px;
+}
+
+li.course .selected-indicator {
+  font-size: 2em;
+  line-height: 0.5em;
+  margin: 10px 10px 0px 8px;
+  color: lightgray;
+}
